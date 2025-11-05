@@ -154,9 +154,14 @@ function clasificarEdad(edad) {
  */
 function factorial(n) {
   // TODO: Implementa usando un bucle for
-  return 1;
+  if (n < 0) return NaN; // Factorial no definido para negativos
+  let resultado = 1;
+  for (let i = 2; i <= n; i++) {
+    resultado *= i;
+  }
+  return resultado;
 }
-
+ 
 /**
  * Ejercicio 3.2: Suma de nÃºmeros del 1 al n (4 puntos)
  * @param {number} n - NÃºmero lÃ­mite
@@ -175,9 +180,15 @@ function sumaHastaN(n) {
  */
 function tablaMultiplicar(numero) {
   // TODO: Genera un array con la tabla de multiplicar
+
   const tabla = [];
+  for (let i = 1; i <= 10; i++) {
+    tabla.push(numero * i);
+  }
   return tabla;
 }
+
+
 
 /**
  * Ejercicio 3.4: NÃºmeros pares hasta n (6 puntos)
