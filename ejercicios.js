@@ -111,8 +111,16 @@ function evaluarNota(nota) {
  */
 function mayorDeTres(a, b, c) {
   // TODO: Encuentra y retorna el mayor de los tres nÃºmeros
-  return 0;
+  let mayor = a;
+  if (b > mayor) {
+    mayor = b;
+  }
+  if (c > mayor) {
+    mayor = c;
+  }
+  return mayor;
 }
+
 
 /**
  * Ejercicio 2.4: ClasificaciÃ³n de edad (4 puntos)
