@@ -31,13 +31,13 @@ function miInformacion() {
 function operacionesBasicas(a, b) {
   // TODO: Calcula suma, resta, multiplicaciÃ³n y divisiÃ³n de a y b
 
-  const suma = 0;
-  const resta = 0;
-  const multiplicacion = 0;
-  const division = 0;
+  const suma = a + b;
+  const resta = a - b;
+  const multiplicacion = a * b;
+  const division = a / b;
 
 
-  
+
   return { suma, resta, multiplicacion, division };
 }
 
@@ -48,8 +48,8 @@ function operacionesBasicas(a, b) {
  * @returns {number} - Ãrea del rectÃ¡ngulo
  */
 function areaRectangulo(base, altura) {
-  // TODO: Calcula y retorna el Ã¡rea (base * altura)
-  return 0;
+  area = base * altura;
+  return area;
 }
 
 /**
@@ -61,7 +61,8 @@ function areaRectangulo(base, altura) {
  */
 function celsiusAFahrenheit(celsius) {
   // TODO: Implementa la conversiÃ³n
-  return 0;
+  F = C * 9 / 5 + 32
+  return f;
 }
 
 // ============================================
