@@ -249,7 +249,15 @@ function promedioArray(numeros) {
 function encontrarMaximo(numeros) {
   // TODO: Encuentra y retorna el nÃºmero mÃ¡s grande
   // Pista: Puedes usar Math.max(...numeros) o hacerlo con un bucle
-  return 0;
+  if (numeros.length === 0) return undefined; // O un error, dependiendo de la especificación
+  
+  let maximo = numeros[0];
+  for (let i = 1; i < numeros.length; i++) {
+    if (numeros[i] > maximo) {
+      maximo = numeros[i];
+    }
+  }
+  return maximo;
 }
 
 /**
