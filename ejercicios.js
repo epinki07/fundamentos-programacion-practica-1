@@ -220,7 +220,11 @@ function numerosPares(n) {
  */
 function sumaArray(numeros) {
   // TODO: Suma todos los elementos del array
-  return 0;
+  let suma = 0;
+  for (const num of numeros) {
+    suma += num;
+  }
+  return suma;
 }
 
 /**
