@@ -363,6 +363,12 @@ function obtenerFila(matriz, indiceFila) {
 function obtenerColumna(matriz, indiceColumna) {
   // TODO: Extrae todos los elementos de la columna indicada
   const columna = [];
+  // Asumiendo que la matriz tiene al menos una fila y que todas las filas tienen el mismo número de columnas
+  if (matriz.length > 0 && indiceColumna >= 0 && indiceColumna < matriz[0].length) {
+    for (const fila of matriz) {
+      columna.push(fila[indiceColumna]);
+    }
+  }
   return columna;
 }
 
