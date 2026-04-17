@@ -1,47 +1,21 @@
-# 📘 Fundamentos de Programación
+# Fundamentos de Programacion
 
-Práctica de fundamentos de programación: algoritmos básicos con pruebas automatizadas. Introducción a Git y GitHub.
+Practica de programacion basica: algoritmos, estructuras de control, funciones y pruebas automatizadas. Es el primer repositorio donde trabaje con Git y GitHub de forma estructurada.
 
-## 📋 ¿Qué incluye?
+## Contenido
 
-- Algoritmos básicos
-- Estructuras de control
-- Funciones y modularidad
-- Tests automatizados
-- Flujo de Git/GitHub
+- Algoritmos basicos y logica de programacion
+- Estructuras de control e iteracion
+- Organizacion por modulos y funciones
+- Introduccion a pruebas automatizadas
 
-## 🛠️ Tech Stack
+## Como correrlo
 
-| Lenguaje | Herramientas |
-|----------|--------------|
-| Python/Java | Git |
-| | GitHub |
-| | Testing |
-
-## 📁 Estructura del proyecto
-
-```
-fundamentos-programacion/
-├── src/
-│   ├── algoritmos_basicos/
-│   ├── estructuras_control/
-│   └── funciones/
-├── tests/
-│   └── test_algoritmos.py
-└── README.md
+```bash
+git clone https://github.com/epinki07/fundamentos-programacion.git
+cd fundamentos-programacion
 ```
 
-## 💡 Qué aprendí
+## Autor
 
-- Fundamentos de algoritmia
-- Control de versiones con Git
-- Flujo de trabajo en GitHub
-- Testing básico
-
-## 🤝 Autor
-
-**Diego Ramirez Magaña**
-
-- 📧 dramirezmagana@gmail.com
-- 🔗 [LinkedIn](https://www.linkedin.com/in/diego-ramirez-maga%C3%B1a-b15022298/)
-- 🐙 [GitHub](https://github.com/epinki07)
+Diego Ramirez Magana — [LinkedIn](https://www.linkedin.com/in/diego-ramirez-maga%C3%B1a-b15022298/) | [GitHub](https://github.com/epinki07) | dramirezmagana@gmail.com
